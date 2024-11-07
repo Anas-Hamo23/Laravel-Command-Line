@@ -1,8 +1,10 @@
-# Laravel MVC Command Line Guide
+# Laravel Command Line Guide
+
 ### Start the Development Server
 ```bash
 php artisan serve
 ```
+
 ### Create a Controller Class
 ```bash
 php artisan make:controller NameController
@@ -23,12 +25,13 @@ php artisan make:controller PhotoController --api
 ```bash
 php artisan make:model NameModel
 ```
+
 ### Create a Migration Class via Command Line
 ```bash
 php artisan make:migration NameMigrate
 ```
 
-### php artisan make:migration NameMigrate
+### Create a Model, Migration Classes via Command Line
 ```bash
 php artisan make:model NameModel -m
 ```
@@ -52,22 +55,27 @@ php artisan make:middleware NameMiddleware
 ```bash
 php artisan make:middleware NameMiddleware
 ```
+
 ### Create a Request
 ```bash
 php artisan make:request NameRequest
 ```
+
 ### Create a Policy
 ```bash
 php artisan make:policy NamePolicy --model=ModelName
 ```
+
 ### Run Migrations
 ```bash
 php artisan migrate
 ```
+
 ###  Rollback Migrations
 ```bash
 php artisan migrate:rollback
 ```
+
 ### Seed the Database
 ```bash
 php artisan db:seed
