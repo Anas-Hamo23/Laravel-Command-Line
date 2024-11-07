@@ -51,11 +51,6 @@ php artisan route:list
 php artisan make:middleware NameMiddleware
 ```
 
-### Create a Middleware
-```bash
-php artisan make:middleware NameMiddleware
-```
-
 ### Create a Request
 ```bash
 php artisan make:request NameRequest
@@ -161,11 +156,6 @@ php artisan make:notification NameNotification
 ### Create a Mail
 ```bash
 php artisan make:mail NameMail
-```
-
-### Create a Notification
-```bash
-php artisan make:notification NameNotification
 ```
 
 ### Create a Console Command
