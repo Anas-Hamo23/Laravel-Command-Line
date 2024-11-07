@@ -3,6 +3,7 @@
 ### Install Laravel
 ```bash
 composer create-project --prefer-dist laravel/laravel project-name
+cd project-name
 ```
 
 ### Start the Development Server
