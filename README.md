@@ -1,4 +1,9 @@
 # Laravel Command Line Guide
+### هىسف
+### Install Laravel
+```bash
+composer create-project --prefer-dist laravel/laravel project-name
+```
 
 ### Start the Development Server
 ```bash
