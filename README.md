@@ -80,3 +80,110 @@ php artisan migrate:rollback
 ```bash
 php artisan db:seed
 ```
+
+### Create a Seeder
+```bash
+php artisan make:seeder NameSeeder
+```
+
+### Run Specific Seeder
+```bash
+php artisan db:seed --class=NameSeeder
+```
+
+### Create a Factory
+```bash
+php artisan make:factory NameFactory --model=ModelName
+```
+
+### Generate Auth Scaffolding (Laravel Breeze or Jetstream)
+#### Laravel Breeze
+```bash
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install && npm run dev
+php artisan migrate
+```
+
+#### Laravel Jetstream
+```bash
+composer require laravel/jetstream
+php artisan jetstream:install [livewire|inertia]
+npm install && npm run dev
+php artisan migrate
+```
+
+### Clear Application Cache
+```bash
+php artisan cache:clear
+```
+
+### Clear Configuration Cache
+```bash
+php artisan config:clear
+```
+
+### Clear Route Cache
+```bash
+php artisan route:clear
+```
+
+### Clear View Cache
+```bash
+php artisan view:clear
+```
+
+### List All Available Artisan Commands
+```bash
+php artisan list
+```
+
+### Create a Job
+```bash
+php artisan make:job NameJob
+```
+
+### Create a Listener
+```bash
+php artisan make:listener NameListener --event=EventName
+```
+
+### Create an Event
+```bash
+php artisan make:event NameEvent
+```
+
+### Create a Notification
+```bash
+php artisan make:notification NameNotification
+```
+
+### Create a Mail
+```bash
+php artisan make:mail NameMail
+```
+
+### Create a Notification
+```bash
+php artisan make:notification NameNotification
+```
+
+### Create a Console Command
+```bash
+php artisan make:command NameCommand
+```
+
+### Queue Work Command
+```bash
+php artisan queue:work
+```
+
+### Queue Listen Command
+```bash
+php artisan queue:listen
+```
+
+### Create a Custom Validation Rule
+```bash
+php artisan make:rule NameRule
+```
