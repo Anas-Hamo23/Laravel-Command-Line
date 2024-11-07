@@ -1,6 +1,9 @@
-# Laravel-Command-Line
 # Laravel MVC (Command Line)
 
-### 1. **إنشاء فئة Controller باستخدام سطر الأوامر**
+### 1. **Create a Controller Class via Command Line**
 ```bash
 php artisan make:controller NameController
+
+### 2.**Create a Resource Controller Class via Command Line**
+```bash
+php artisan make:controller PhotoController --resource
