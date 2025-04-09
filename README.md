@@ -96,6 +96,10 @@ php artisan db:seed --class=NameSeeder
 ```bash
 php artisan make:factory NameFactory --model=ModelName
 ```
+### Generate the Application Key
+```bash
+php artisan key:generate
+```
 
 ### Generate Auth Scaffolding (Laravel Breeze or Jetstream)
 #### Laravel Breeze
